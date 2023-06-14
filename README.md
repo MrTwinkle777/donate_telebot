@@ -8,24 +8,24 @@
 
 1. Клонируйте репозиторий с помощью следующей команды:
 
-git clone https://github.com/MrTwinkle777/donate_telebot.git
+    git clone https://github.com/MrTwinkle777/donate_telebot.git
 
 2. Перейдите в директорию проекта:
 
-cd donate_telebot
+    cd donate_telebot
 
 3. Установите зависимости с помощью команды:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. Создайте файл `config.py` и добавьте в него следующие переменные:
 
-API_TOKEN = 'YOUR_API_TOKEN'
-PAYMENTS_TOKEN = 'YOUR_PAYMENTS_TOKEN'
+    API_TOKEN = 'YOUR_API_TOKEN'
+    PAYMENTS_TOKEN = 'YOUR_PAYMENTS_TOKEN'
 
 Замените 'YOUR_API_TOKEN' на токен вашего Telegram-бота, а 'YOUR_PAYMENTS_TOKEN' на токен платежного провайдера.
 
-Использование
+### Использование:
 Запустите бота с помощью команды:
 
 python main.py
@@ -35,6 +35,7 @@ python main.py
 Выберите сумму пожертвования и валюту.
 После успешной оплаты вы получите сообщение с благодарностью.
 
-Зависимости:
+#### Зависимости:
 telebot
+
 requests
